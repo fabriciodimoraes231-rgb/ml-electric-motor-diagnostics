@@ -1,15 +1,15 @@
 # Machine Learning para Diagnóstico de Motores Elétricos
 
-## 📋 Descrição do Projeto
+##  Descrição do Projeto
 
 Este projeto aplica técnicas de Machine Learning para detectar falhas e analisar a eficiência de motores elétricos em veículos elétricos, no contexto da **Indústria 4.0** e automação industrial.
 
-## 🎯 Objetivos
+##  Objetivos
 
 1. **Classificação (Detecção de Falhas)**: Identificar quando um motor elétrico apresenta sinais de falha ou degradação
 2. **Regressão (Predição de Eficiência)**: Prever a eficiência energética do motor baseada em condições operacionais
 
-## 📊 Dataset
+## Dataset
 
 - **5.000 registros** sintéticos simulando sensores de motores elétricos
 - **18 variáveis** incluindo parâmetros elétricos, mecânicos e térmicos
@@ -40,7 +40,7 @@ Este projeto aplica técnicas de Machine Learning para detectar falhas e analisa
 - SVR
 - Linear Regression
 
-## 📈 Resultados
+## Resultados
 
 ### Detecção de Falhas (Classificação):
 - **Accuracy**: 99.9%
@@ -54,7 +54,7 @@ Este projeto aplica técnicas de Machine Learning para detectar falhas e analisa
 - **MAE**: 0.05%
 - **Erro Percentual Médio**: 0.07%
 
-## 🔧 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python 3.10+**
 - **Pandas** - Manipulação de dados
@@ -63,7 +63,7 @@ Este projeto aplica técnicas de Machine Learning para detectar falhas e analisa
 - **Matplotlib/Seaborn** - Visualização
 - **Jupyter Notebook** - Desenvolvimento
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 ml-electric-motor-diagnostics/
@@ -72,7 +72,7 @@ ml-electric-motor-diagnostics/
 └── LICENSE                           # Licença
 ```
 
-## 🚀 Como Executar
+## Como Executar
 
 1. **Clone o repositório**:
    ```bash
@@ -90,21 +90,21 @@ ml-electric-motor-diagnostics/
    jupyter notebook motor_eletrico_diagnosticos.ipynb
    ```
 
-## 💡 Features Mais Importantes
+## Features Mais Importantes
 
 1. **`razao_potencia`** - Principal indicador (94% da importância)
 2. **`condicao_operacional`** - Indicador composto crucial
 3. **`vibracao`** - Excelente para detectar falhas mecânicas
 4. **`temperatura_motor`** - Fundamental para ambos os problemas
 
-## 🏭 Aplicações Práticas
+## Aplicações Práticas
 
 - **Manutenção Preditiva**: Detecção precoce de falhas
 - **Otimização Energética**: Maximização da eficiência
 - **Monitoramento Tempo Real**: Alertas automáticos
 - **Redução de Custos**: Evitar paradas não programadas
 
-## 📚 Estrutura do Notebook
+## Estrutura do Notebook
 
 1. **Contextualização e Formulação do Problema**
 2. **Importação de Bibliotecas**
@@ -119,7 +119,7 @@ ml-electric-motor-diagnostics/
 11. **Otimização de Hiperparâmetros**
 12. **Considerações Finais**
 
-## 📊 Visualizações Incluídas
+## Visualizações Incluídas
 
 - Distribuições das variáveis principais
 - Boxplots por status de falha
