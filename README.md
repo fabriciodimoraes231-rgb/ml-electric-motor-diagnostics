@@ -26,17 +26,17 @@ Este projeto aplica técnicas de Machine Learning para detectar falhas e analisa
 - Tempo de operação (horas)
 - Eficiência (%)
 
-## 🤖 Modelos Implementados
+##  Modelos Implementados
 
 ### Classificação:
 - Random Forest
-- Gradient Boosting ⭐ (Melhor)
+- Gradient Boosting 
 - SVM
 - Logistic Regression
 
 ### Regressão:
 - Random Forest
-- Gradient Boosting ⭐ (Melhor)
+- Gradient Boosting 
 - SVR
 - Linear Regression
 
@@ -71,24 +71,6 @@ ml-electric-motor-diagnostics/
 ├── README.md                          # Documentação
 └── LICENSE                           # Licença
 ```
-
-## Como Executar
-
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/fabriciodimoraes231-rgb/ml-electric-motor-diagnostics.git
-   cd ml-electric-motor-diagnostics
-   ```
-
-2. **Instale as dependências**:
-   ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn jupyter scipy
-   ```
-
-3. **Execute o notebook**:
-   ```bash
-   jupyter notebook motor_eletrico_diagnosticos.ipynb
-   ```
 
 ## Features Mais Importantes
 
@@ -126,23 +108,12 @@ ml-electric-motor-diagnostics/
 - Matriz de correlação
 - Análise temporal
 - Matriz de confusão
-- Gráficos de predições vs valores reais
+- Gráficos de predições vs valores reai
 - Análise de resíduos
 - Importância das features
 
-## 🎓 Contexto Acadêmico
+## Contexto Acadêmico
 
 Este projeto foi desenvolvido como **Trabalho Prático** para a disciplina de **Inteligência Artificial para Automação**, focando na aplicação de ML no contexto da **Indústria 4.0**.
 
-## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 👨‍💻 Autor
-
-**Fabrício Moraes**
-- GitHub: [@fabriciodimoraes231-rgb](https://github.com/fabriciodimoraes231-rgb)
-
----
-
-**⚡ "A aplicação de Inteligência Artificial na indústria não é apenas uma tendência, é uma necessidade para competitividade e sustentabilidade no século XXI."**
