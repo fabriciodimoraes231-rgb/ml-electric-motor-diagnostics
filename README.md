@@ -63,11 +63,21 @@ Este projeto aplica técnicas de Machine Learning para detectar falhas e analisa
 - **Matplotlib/Seaborn** - Visualização
 - **Jupyter Notebook** - Desenvolvimento
 
+## Como rodar
+
+Os dados são sintéticos e gerados no próprio notebook; não é preciso baixar nada.
+
+```bash
+pip install -r requirements.txt
+jupyter notebook motor_eletrico_diagnosticos.ipynb
+```
+
 ## Estrutura do Projeto
 
 ```
 ml-electric-motor-diagnostics/
 ├── motor_eletrico_diagnosticos.ipynb  # Notebook principal
+├── requirements.txt                   # Dependências
 ├── README.md                          # Documentação
 └── LICENSE                           # Licença
 ```
